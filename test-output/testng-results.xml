@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5886" started-at="2019-12-27T16:55:50Z" finished-at="2019-12-27T16:55:56Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="5886" started-at="2019-12-27T16:55:50Z" finished-at="2019-12-27T16:55:56Z">
+      <class name="com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="setUpFramework" is-config="true" duration-ms="1535" started-at="2019-12-27T16:55:49Z" finished-at="2019-12-27T16:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-12-27T16:55:50Z" finished-at="2019-12-27T16:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="beforeClass" is-config="true" duration-ms="8" started-at="2019-12-27T16:55:50Z" finished-at="2019-12-27T16:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-12-27T16:55:50Z" finished-at="2019-12-27T16:55:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI.validateUpdateCustomerAPIWithValidAuthKey(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateUpdateCustomerAPIWithValidAuthKey(java.util.Hashtable)[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="validateUpdateCustomerAPIWithValidAuthKey" duration-ms="5785" started-at="2019-12-27T16:55:50Z" data-provider="data" finished-at="2019-12-27T16:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Ankit, expectedStatusCode=200, balance=10000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdateCustomerAPIWithValidAuthKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-27T16:55:56Z" finished-at="2019-12-27T16:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUpdateCustomerAPIWithValidAuthKey status=SUCCESS method=ValidateUpdateCustomerAPI.validateUpdateCustomerAPIWithValidAuthKey(java.util.Hashtable)[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-27T16:55:56Z" finished-at="2019-12-27T16:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-12-27T16:55:56Z" finished-at="2019-12-27T16:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDownFramework()[pri:0, instance:com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI@1afd44cb]" name="tearDownFramework" is-config="true" duration-ms="890" started-at="2019-12-27T16:55:56Z" finished-at="2019-12-27T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFramework -->
+      </class> <!-- com.vitamojo.Demo_API_RestAssured.TestCases.ValidateUpdateCustomerAPI -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

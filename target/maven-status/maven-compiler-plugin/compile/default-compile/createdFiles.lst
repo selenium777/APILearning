@@ -1,0 +1,9 @@
+com\vitamojo\Demo_API_RestAssured\TestUtils\Data.class
+com\vitamojo\Demo_API_RestAssured\TestSetup\TestSetup.class
+com\vitamojo\Demo_API_RestAssured\TestUtils\Extentmanager.class
+com\vitamojo\Demo_API_RestAssured\API\UpdateCustomerAPI.class
+com\vitamojo\Demo_API_RestAssured\TestUtils\ConfigProperties.class
+com\vitamojo\Demo_API_RestAssured\TestUtils\TestUtil.class
+com\vitamojo\Demo_API_RestAssured\API\CreateCustomerAPI.class
+com\vitamojo\Demo_API_RestAssured\CustomListeners\TestListeners.class
+com\vitamojo\Demo_API_RestAssured\TestUtils\ExcelReader.class
